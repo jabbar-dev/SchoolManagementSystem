@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Class-Path: .
+Main-Class: application.Main
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: jfx8.cssext
+SHA1-Digest: M/0RdFPXEb/1lRbbjfVIRe6FDIk=
+
+Name: common
+Implementation-Title: MySQL Connector/J
+Implementation-Version: 5.0.8
+Specification-Vendor: Sun Microsystems Inc.
+Specification-Title: JDBC
+Implementation-Vendor-Id: com.mysql
+Specification-Version: 3.0
+Implementation-Vendor: MySQL AB
+

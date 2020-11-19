@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="500.0" maxWidth="900.0" minHeight="500.0" minWidth="900.0" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ByIdController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6851d3" height="80.0" stroke="BLACK" strokeType="INSIDE" width="900.0" />
+      <ScrollPane layoutX="-1.0" layoutY="76.0" prefHeight="423.0" prefWidth="900.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="434.0" prefWidth="1028.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="22.0" prefWidth="57.0" style="-fx-background-color: yellow;" text="Roll#" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="59.0" prefHeight="22.0" prefWidth="88.0" style="-fx-background-color: white;" text="Name" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" prefHeight="22.0" prefWidth="64.0" style="-fx-background-color: yellow;" text="F/Name" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="216.0" prefHeight="22.0" prefWidth="57.0" style="-fx-background-color: white;" text="Caste" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="276.0" prefHeight="22.0" prefWidth="57.0" style="-fx-background-color: yellow;" text="Religion" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="335.0" prefHeight="22.0" prefWidth="57.0" style="-fx-background-color: white;" text="Class" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="394.0" prefHeight="22.0" prefWidth="113.0" style="-fx-background-color: yellow;" text="Address" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" prefHeight="22.0" prefWidth="114.0" style="-fx-background-color: white;" text="Guardian Contact" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="625.0" layoutY="-1.0" prefHeight="22.0" prefWidth="57.0" style="-fx-background-color: yellow;" text="DOB" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="684.0" layoutY="-1.0" prefHeight="22.0" prefWidth="57.0" style="-fx-background-color: white;" text="CNIC" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="743.0" layoutY="-1.0" prefHeight="22.0" prefWidth="95.0" style="-fx-background-color: yellow;" text="Place of Birth" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="840.0" layoutY="-1.0" prefHeight="22.0" prefWidth="87.0" style="-fx-background-color: white;" text="Nationality" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="929.0" layoutY="-1.0" prefHeight="22.0" prefWidth="95.0" style="-fx-background-color: yellow;" text="Last School" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="RollNum" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="22.0" prefHeight="454.0" prefWidth="55.0" style="-fx-background-color: white;" textAlignment="CENTER" />
+                  <Label fx:id="Name" alignment="TOP_LEFT" layoutX="59.0" layoutY="22.0" prefHeight="454.0" prefWidth="88.0" />
+                  <Label fx:id="FName" alignment="TOP_LEFT" layoutX="150.0" layoutY="22.0" prefHeight="454.0" prefWidth="65.0" style="-fx-background-color: white;" />
+                  <Label fx:id="Caste" alignment="TOP_LEFT" layoutX="216.0" layoutY="22.0" prefHeight="454.0" prefWidth="58.0" />
+                  <Label fx:id="Religion" alignment="TOP_LEFT" layoutX="276.0" layoutY="22.0" prefHeight="454.0" prefWidth="58.0" style="-fx-background-color: white;" />
+                  <Label fx:id="ClassName" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="335.0" layoutY="22.0" prefHeight="454.0" prefWidth="58.0" textAlignment="CENTER" />
+                  <Label fx:id="Address" alignment="TOP_LEFT" layoutX="394.0" layoutY="22.0" prefHeight="454.0" prefWidth="113.0" style="-fx-background-color: white;" />
+                  <Label fx:id="GuardianNumber" alignment="TOP_LEFT" layoutX="507.0" layoutY="22.0" prefHeight="454.0" prefWidth="116.0" />
+                  <Label fx:id="DOB" alignment="TOP_LEFT" layoutX="624.0" layoutY="22.0" prefHeight="454.0" prefWidth="59.0" style="-fx-background-color: white;" />
+                  <Label fx:id="CNIC" alignment="TOP_LEFT" layoutX="683.0" layoutY="22.0" prefHeight="454.0" prefWidth="59.0" />
+                  <Label fx:id="PlaceOfBirth" alignment="TOP_LEFT" layoutX="743.0" layoutY="22.0" prefHeight="454.0" prefWidth="94.0" style="-fx-background-color: white;" />
+                  <Label fx:id="Nationality" alignment="TOP_LEFT" layoutX="840.0" layoutY="22.0" prefHeight="454.0" prefWidth="88.0" />
+                  <Label fx:id="LastSchool" alignment="TOP_LEFT" layoutX="927.0" layoutY="22.0" prefHeight="454.0" prefWidth="96.0" style="-fx-background-color: white;" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="69.0" fitWidth="116.0" layoutX="24.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchbyname.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="135.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@byidtext.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="375.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Student's Id: ">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="searchbar" layoutX="527.0" layoutY="28.0" prefHeight="25.0" prefWidth="234.0" />
+      <Button fx:id="search" layoutX="768.0" layoutY="28.0" mnemonicParsing="false" onAction="#Search" text="SEARCH" />
+      <Label fx:id="validate" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="527.0" layoutY="56.0" prefHeight="17.0" prefWidth="234.0" textAlignment="CENTER" textFill="#f2ff00">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.addstudent{
+	
+	-fx-background-color:#FF2E2E;
+	
+	
+	
+}
+
+
+.addstudent:hover{
+	
+	
+	-fx-background-color:#E50404;
+	
+}
+
+.addstudent:pressed{
+	
+	
+	-fx-background-color:#A20404;
+}
+
+
+.loginbtn{
+	
+	-fx-background-color:#6851d3;}
+	
+	
+.loginbtn:hover{
+	
+	-fx-background-color:#310fcf;}
+
+
+.loginbtn:pressed{
+	
+	-fx-background-color:#28167a;}	
+
+.logout{
+	
+	-fx-background-color:white;}
+
+	
+.logout:hover{
+	
+	-fx-background-color:#d7d7d7;
+}
+
+.logout:pressed{
+	
+	-fx-background-color:#b0afb3;
+	
+}
+
+
+.searchname{
+	
+	-fx-background-color:yellow;
+	
+}
